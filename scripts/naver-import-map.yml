@@ -2853,3 +2853,163 @@
   title: "PostgreSQL 19 기능 철회 — AI 코드 리뷰 뒤 11월 정식 출시"
   description: 베타 기간에 주요 기능 8~10개가 철회된 PostgreSQL 19 의 출시 일정과, 핵심 커미터가 배경으로 꼽은 LLM 보조 코드 리뷰를 정리합니다
   tags: [postgresql, database, code-review, llm, open-source]
+
+- source: naver-posting-it/posts/ai/26Q4/20261021_DeepSeek_DeepInfer.md
+  slug: deepseek-deepinfer-inference-engine
+  date: 2026-10-21
+  category: AI
+  category_slug: ai
+  subcategory: News
+  title: "DeepSeek 추론 엔진 DeepInfer 공개 — 하루 155조 토큰 처리"
+  description: DeepSeek 가 자사 서비스에 쓰는 추론 엔진 DeepInfer 를 Apache 2.0 으로 공개한 범위와 이번 릴리스에서 빠진 운영 구성요소를 정리합니다
+  tags: [deepseek, deepinfer, inference-engine, open-source, moe]
+
+- source: naver-posting-it/posts/ai/26Q4/20261021_WhatsApp_숨은AI지시문.md
+  slug: whatsapp-hidden-ai-instructions
+  date: 2026-10-21
+  category: AI
+  category_slug: ai
+  subcategory: News
+  title: "WhatsApp 도움말 소스 속 AI 지시문 — 규제기관 안내 금지"
+  description: WhatsApp 도움말 문서 페이지 소스에서 발견된 상담 챗봇용 숨은 지시문 102개의 발견 경위와 문제가 된 지시문 두 개를 정리합니다
+  tags: [whatsapp, meta, chatbot, system-prompt, privacy]
+
+- source: naver-posting-it/posts/ai/26Q4/20261022_GPT6Pro_병렬에이전트.md
+  slug: gpt-6-pro-parallel-agents
+  date: 2026-10-22
+  category: AI
+  category_slug: ai
+  subcategory: News
+  title: "GPT-6 Pro 병렬 에이전트 — Plus 는 이용 대상 제외"
+  description: 한 작업을 여러 에이전트로 나눠 동시에 처리하는 ChatGPT GPT-6 Pro 업데이트의 내용과 요금제별 이용 대상을 정리합니다
+  tags: [openai, chatgpt, gpt-6, parallel-agents, multi-agent]
+
+- source: naver-posting-it/posts/ai/26Q4/20261025_AgentSkills_4탄.md
+  slug: skill-in-use-04-claude-code-vs-codex
+  date: 2026-10-25
+  category: AI
+  category_slug: ai
+  subcategory: Explainer
+  title: "스킬 실사용 (4) — SKILL.md 하나로 Claude Code와 Codex 16회 실행 비교"
+  description: AAIF 로 이관된 Agent Skills 표준을 따라 같은 릴리스 노트 스킬을 Claude Code 와 Codex 에서 16회 실행해 출력 형식과 스킬 폴더 차이를 비교합니다
+  tags: [agent-skills, claude-code, codex, aaif, skill-md]
+
+- source: naver-posting-it/posts/ai/26Q4/20261025_Claude_Duet.md
+  slug: claude-duet-proactive-assistant
+  date: 2026-10-25
+  category: AI
+  category_slug: ai
+  subcategory: News
+  title: "Claude Duet 공개 — 먼저 연락하는 비서 앱, 미국 Pro·Max 만 이용"
+  description: 연결된 앱을 몇 시간마다 확인하고 먼저 연락하는 Anthropic 의 별도 비서 앱 Claude Duet 의 기능과 이용 조건을 정리합니다
+  tags: [anthropic, claude, claude-duet, ai-agent, proactive-agent]
+
+- source: naver-posting-it/posts/robot/26Q4/20261022_파이봇_함정조타.md
+  slug: kaist-pibot-navy-helm
+  date: 2026-10-22
+  category: Robot
+  category_slug: robot
+  subcategory: News
+  title: "KAIST 파이봇 해군 함정 조타 — 실제 해상 실증은 아직"
+  description: KAIST 휴머노이드 파이봇이 해군 조함훈련장 육상 시뮬레이터에서 타수 임무를 맡은 실험의 내용과 실제 해상 실증까지 남은 단계를 정리합니다
+  tags: [pibot, kaist, humanoid, navy, physical-ai]
+
+- source: naver-posting-it/posts/security/26Q4/20261021_N0n_해운항만_랜섬웨어.md
+  slug: n0n-ransomware-korean-shipping-leak
+  date: 2026-10-21
+  category: Tech
+  category_slug: tech
+  subcategory: News
+  title: "랜섬웨어 N0n, 부산신항만·동국제강 등 12곳 유출 자료 공개"
+  description: 랜섬웨어 그룹 N0n 이 협상 기한이 지난 국내 해운·항만·철강 기업 12곳의 내부 자료를 다크웹에 공개한 경과와 명단을 정리합니다
+  tags: [ransomware, n0n, data-breach, shipping, supply-chain-attack]
+
+- source: naver-posting-it/posts/security/26Q4/20261022_정보통신망법_과징금.md
+  slug: network-act-repeat-breach-penalty
+  date: 2026-10-22
+  category: Tech
+  category_slug: tech
+  subcategory: News
+  title: "개정 정보통신망법 시행 — 해킹 반복되면 매출 3% 과징금"
+  description: 10월 1일 시행된 개정 정보통신망법의 반복 침해사고 과징금·이행강제금·사고 조사 규정과 기업이 챙길 의무를 정리합니다
+  tags: [network-act, penalty, ciso, isms, regulation]
+
+- source: naver-posting-it/posts/security/26Q4/20261023_PHP2Shell_취약점.md
+  slug: php2shell-rce-vulnerability
+  date: 2026-10-23
+  category: Tech
+  category_slug: tech
+  subcategory: News
+  title: "PHP2Shell — PHP 엔진의 인증 없는 원격 코드 실행 취약점"
+  description: PHP 엔진 자체에서 인증 없이 원격 코드를 실행할 수 있는 CVE-2026-109618·109619 의 공개 경과와 패치 버전, 영향 범위를 정리합니다
+  tags: [php, php2shell, rce, cve, security-patch]
+
+- source: naver-posting-it/posts/security/26Q4/20261025_연세대_포털해킹.md
+  slug: yonsei-portal-breach
+  date: 2026-10-25
+  category: Tech
+  category_slug: tech
+  subcategory: News
+  title: "연세대 포털 해킹 — 학번·휴대전화번호 1만여 명 유출"
+  description: 연세포털서비스 외부 침입으로 구성원 1만여 명의 학번·휴대전화번호·이메일이 유출된 경과와 유출 조회·스미싱 대비 방법을 정리합니다
+  tags: [yonsei-university, data-breach, smishing, personal-information, security]
+
+- source: naver-posting-it/posts/security/26Q4/20261025_Nodejs_Brotli_취약점.md
+  slug: nodejs-brotli-rce-vulnerability
+  date: 2026-10-25
+  category: Tech
+  category_slug: tech
+  subcategory: News
+  title: "Node.js 보안 업데이트 — Brotli 압축 해제로 원격 코드 실행"
+  description: Brotli 압축 해제 코드의 결함으로 원격 코드 실행이 가능한 CVE-2026-111497 과 Node.js 10월 보안 업데이트 버전을 정리합니다
+  tags: [nodejs, brotli, rce, cve, security-patch]
+
+- source: naver-posting-it/posts/security/26Q4/20261025_PHP보안스킬_실측.md
+  slug: claude-code-php-security-skill
+  date: 2026-10-25
+  category: AI
+  category_slug: ai
+  subcategory: Explainer
+  title: "Claude Code PHP 보안 스킬 — 그누보드형 예제 앱 결함 11곳 탐지"
+  description: PHP 웹사이트 보안 점검을 맡기는 Claude Code 스킬 php-security-hardening 의 구성과, 결함을 심은 예제 앱에서 탐지한 것과 놓친 것을 정리합니다
+  tags: [claude-code, agent-skills, php, secure-coding, web-security]
+
+- source: naver-posting-it/posts/security/26Q4/20261025_PHP_CVE-2026-115560.md
+  slug: php-cve-2026-115560-session-upload-progress
+  date: 2026-10-25
+  category: Tech
+  category_slug: tech
+  subcategory: News
+  title: "PHP 신규 취약점 CVE-2026-115560 — 패치 전 임시 조치와 영향 조건 3가지"
+  description: PHP2Shell 패치 이틀 뒤 공개된 PHP 세션 업로드 진행률 기능의 취약점과, 패치 전까지 적용할 임시 조치와 영향 조건을 정리합니다
+  tags: [php, cve, session, rce, php-ini]
+
+- source: naver-posting-it/posts/tech/26Q4/20261021_빅쿼리_샌드박스_1탄.md
+  slug: bigquery-sandbox-01-first-query
+  date: 2026-10-21
+  category: Tech
+  category_slug: tech
+  subcategory: Explainer
+  title: "카드 없이 빅쿼리 (1) — BigQuery 샌드박스로 첫 쿼리와 처리량 확인"
+  description: 결제 카드 없이 Google 계정만으로 쓰는 BigQuery 샌드박스의 한도와, 공개 데이터셋에 첫 쿼리를 실행하며 처리량을 확인하는 방법을 정리합니다
+  tags: [bigquery, bigquery-sandbox, google-cloud, sql, query-cost]
+
+- source: naver-posting-it/posts/tech/26Q4/20261022_유튜브프리미엄_요금.md
+  slug: youtube-premium-lite-pricing
+  date: 2026-10-22
+  category: Tech
+  category_slug: tech
+  subcategory: Explainer
+  title: "YouTube Premium Lite 8,500원 — 요금제 비교와 인도 우회가 막히는 이유"
+  description: 국내 출시 9개월을 맞은 YouTube Premium Lite 와 Music Premium·Premium 의 요금 비교, 인도 결제 우회가 막히는 이유를 정리합니다
+  tags: [youtube-premium, youtube-music, subscription, pricing, google]
+
+- source: naver-posting-it/posts/tech/26Q4/20261022_모바일신분증_은행앱.md
+  slug: mobile-id-bank-apps
+  date: 2026-10-22
+  category: Tech
+  category_slug: tech
+  subcategory: News
+  title: "모바일 신분증 은행 앱 발급 — 신한·하나·우리·기업은행 포함 11개 앱"
+  description: 10월 14일부터 은행 앱에서도 발급되는 모바일 신분증의 대상 앱과 신분증 종류, 발급 절차를 정리합니다
+  tags: [mobile-id, digital-id, banking-app, korea, government]
