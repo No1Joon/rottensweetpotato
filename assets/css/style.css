@@ -372,14 +372,9 @@ nav a:hover { color: var(--text); }
   font-weight: 600;
 }
 
-/* 카테고리 배지 — 클래스는 `badge-{{ category | slugify }}` (_data/categories.yml 기준) */
-.badge-tech,
-.badge-ai,
-.badge-robot,
-.badge-math,
-.badge-science,
-.badge-daily-dev { background: var(--panel); color: var(--text-muted); border: 1px solid var(--border); }
-.badge-sub       { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
+/* 카테고리 배지는 모두 같은 모양 — 카테고리가 늘어도 규칙을 추가하지 않는다 */
+.badge-cat { background: var(--panel); color: var(--text-muted); border: 1px solid var(--border); }
+.badge-sub { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
 
 /* ── Post Content ── */
 /* 본문 17px — 760px 폭에서 한 줄 약 43자로 한글 적정 구간(35~45자)에 들어온다.

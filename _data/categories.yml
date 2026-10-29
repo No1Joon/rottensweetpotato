@@ -1,37 +1,56 @@
+# 포스트 front matter 의 category / subcategory 유효값. 글이 없는 카테고리는 화면에서 숨겨진다.
+# slug 는 _posts/<slug>/ 폴더명과 카테고리 메뉴의 식별자로 쓴다.
+
+# 프로젝트 개발 일지 — 무엇을 했고 왜 그렇게 결정했는지
+- name: CaliMeal
+  slug: calimeal
+
+- name: teampler
+  slug: teampler
+
+- name: 내깜냥
+  slug: mykkamnyang
+
+- name: try-ticketing
+  slug: try-ticketing
+
+- name: All My Projects
+  slug: all-my-projects
+
+- name: quickglot
+  slug: quickglot
+
+- name: Oh My Quota
+  slug: oh-my-quota
+
+- name: Oh My Algorithm
+  slug: oh-my-algorithm
+
+- name: Oh My Universe
+  slug: oh-my-universe
+
+- name: archdraw
+  slug: archdraw
+
+- name: give-me-sign
+  slug: give-me-sign
+
+- name: naver-posting
+  slug: naver-posting
+
+- name: rottensweetpotato
+  slug: rottensweetpotato
+
+# 공부 기록
+- name: 알고리즘 공부
+  slug: algorithm
+
+- name: CS 공부
+  slug: cs
+
+# 기존 글
 - name: Tech
   slug: tech
-  subcategories:
-    - name: Explainer
-      slug: explainer
-    - name: News
-      slug: news
-
-- name: AI
-  slug: ai
-  subcategories:
-    - name: Explainer
-      slug: explainer
-    - name: News
-      slug: news
-    - name: Weekly
-      slug: weekly
-
-- name: Robot
-  slug: robot
-  subcategories:
-    - name: Explainer
-      slug: explainer
-    - name: News
-      slug: news
-
-- name: Math
-  slug: math
-  subcategories:
-    - name: Explainer
-      slug: explainer
-
-- name: Science
-  slug: science
   subcategories:
     - name: Explainer
       slug: explainer
