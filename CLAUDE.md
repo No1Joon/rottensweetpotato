@@ -1,46 +1,25 @@
-# No1Joon's Tech Blog
+# rottensweetpotato.com
 
-Jekyll 기반 블로그, rottensweetpotato.com 서빙 (Claude·Gemini 공통 컨텍스트). 기술 스택·아키텍처·개발 경험 기록용.
-
-> 재개 노트: `temp-memory.md`(gitignore) — 있으면 **세션 시작 때 읽고, 수행한 뒤 지운다.**
+Jekyll 블로그. 내 프로젝트의 개발 일지(무엇을 했고 왜 그렇게 결정했는지)와 공부 기록(알고리즘 설명 등)을 쓴다.
 
 ## Commands
 
 - `bundle install` — 의존성 설치
 - `bundle exec jekyll serve` — 로컬 프리뷰 (http://localhost:4000)
-- `npm run generate-og` — 포스트 OG 이미지 생성 (`assets/og/`)
+- `npm run generate-og` — 포스트 OG 이미지 생성 (`assets/og/`, gitignore)
 - `npm run generate-brand` — 파비콘·기본 OG 이미지 생성
 
 ## Architecture
 
-- `_posts/` — 블로그 글. Jekyll 기본과 달리 **카테고리 slug 하위 폴더**로 나뉜다 (URL 에는 영향 없음). 상세는 `_posts/CLAUDE.md`.
-- `_en_posts/` — 영문판 컬렉션 (`/en/posts/<slug>/`). 한국어 글과 같은 파일명이면 짝으로 묶여 언어 전환·hreflang 이 걸린다. 화면 문구는 `_data/i18n.yml`.
-- `_data/categories.yml` — 포스트 front matter 의 category/subcategory 유효값을 규정하는 단일 출처.
-- `resources.html` · `en/resources.html` — 자료실. front matter 에 `resource: true` 를 단 글을 모은다.
-- `assets/` — 최적화본 `images/` 와 원본 `raw-images/` 가 같은 구조를 미러링. 상세는 `assets/CLAUDE.md`.
-- `scripts/add-screenshot.py` — Desktop 스크린샷을 WebP 로 변환해 위 두 트리에 배치.
-- `scripts/generate-og.mjs` → `assets/og/` — OG 이미지 생성물 (원본은 포스트 front matter).
-- `scripts/generate-brand.mjs` → `favicon.ico` · `assets/favicon.png` · `assets/apple-touch-icon.png` · `assets/og-default.png` — 브랜드 자산 생성물. 색은 `assets/css/style.css` 의 `:root` 토큰과 맞춘다.
-- `scripts/import-naver-post.py` + `scripts/naver-import-map.yml` — `naver-posting` 프로젝트의 네이버 포스팅을 Jekyll 포스트로 이식. 규칙은 `.claude/skills/naver-import/SKILL.md`.
-- `scripts/render-en-images.py` + `scripts/naver-en-slots/` — 이식 글의 자가 렌더 이미지를 영문으로 다시 그려 `assets/images/<cat>/<slug>/en/` 에 배치. `form: custom` 차트는 `scripts/render-en-custom.py`.
-- `_plugins/content_lastmod.rb` — 본문 지문을 직전 배포본(`/lastmod.json`)과 비교해 바뀐 글에만 수정 시각(sitemap `lastmod`·`dateModified`)을 주고, 배포 워크플로가 그 URL 만 IndexNow 로 통지한다. 키 파일은 루트 `<key>.txt`.
-- `api/` — 댓글 시스템 FastAPI 서비스. 사이트와 별개로 배포된다. 상세는 `api/CLAUDE.md`.
-- `docs/design/` — UI 를 만지기 전에 읽는다. `design.md` 가 방향·제외 항목·접근성 기준, `wireframes-blog.html` 이 화면 배치와 그 근거.
-- `.gemini/` — Gemini CLI 설정. 이 CLAUDE.md 와 같은 컨텍스트를 공유한다.
-- `Tasks.md` — 진행 중 작업 트래커.
-
-## Skills
-
-- `.claude/skills/post-plan/SKILL.md` — 한 주제를 시리즈로 갈 가치가 있다고 판단했을 때만 사용 (편수·각 편 핵심 질문 확정).
-- `.claude/skills/blog-post/SKILL.md` — Tech / Explainer 등 깊이 있는 단편·시리즈 작성. front matter 스펙·깊이 기준·톤·시각화·Do-Not 규칙.
-- `.claude/skills/daily-post/SKILL.md` — Daily Dev 포스트 (Troubleshooting·Tips & Tools). 스크린샷 워크플로 포함.
-- `.claude/skills/naver-import/SKILL.md` — `naver-posting` 의 완성 포스팅을 이 블로그로 이식 (새 집필 아님 — 본문 문장은 고치지 않고 구조·자산 경로만 변환).
-- `.claude/skills/en-translate/SKILL.md` — 한국어 포스트를 `_en_posts/` 영문판으로 번역 (짝 파일명·금액 표기·내부 링크 규칙).
-- `.claude/skills/mermaid/SKILL.md` — 다이어그램 색상·구조·선 스타일.
-- `.claude/skills/smart-commit/SKILL.md` — 커밋 메시지 생성·분할 규칙, `Co-Authored-By` 금지, 커밋 후 자동 푸시.
+- `_posts/<category-slug>/` — 글. 하위 폴더는 정리용이고 URL(`/posts/<slug>/`)에는 영향 없다.
+- `_data/categories.yml` — front matter `category`·`subcategory` 의 유효값. 글이 없는 카테고리는 화면에서 숨겨진다.
+- `_en_posts/` — 영문판 컬렉션 (`/en/posts/<slug>/`). 한국어 글과 파일명이 같으면 짝으로 묶인다. 화면 문구는 `_data/i18n.yml`.
+- `assets/images/` — 글 이미지(WebP). 원본은 `assets/raw-images/`(gitignore)에 같은 구조로 둔다. `scripts/add-screenshot.py` 가 변환·배치한다.
+- `_plugins/content_lastmod.rb` — 본문이 바뀐 글에만 수정 시각을 주고, 배포 워크플로가 그 URL 만 IndexNow 로 통지한다.
+- `api/` — 댓글 API (별도 배포, 사이트는 아직 쓰지 않음).
+- `docs/design/` — UI 방향·와이어프레임. UI 를 만지기 전에 읽는다.
+- `Tasks.md` — 진행 중 작업.
 
 ## Environment
 
-- Ruby + Bundler (Jekyll). Node (OG 이미지 생성). CI 는 Ruby 3.3 / Node 20.
-- `main` 브랜치 푸시 시 `.github/workflows/deploy.yml` 가 rottensweetpotato.com 에 배포한다. GitHub Pages(no1joon.github.io)에는 배포하지 않는다.
-- `assets/raw-images/` 는 `.gitignore` 로 제외 (원본 보존용, 사이트 산출물에 포함되지 않음).
+- CI 는 Ruby 3.3 / Node 20. `main` 푸시 시 `.github/workflows/deploy.yml` 가 rottensweetpotato.com 에 배포한다.
