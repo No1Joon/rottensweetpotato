@@ -78,6 +78,7 @@ exclude:
   - assets/CLAUDE.md
   - package.json
   - package-lock.json
+  - wrangler.jsonc
   - api/
   - scripts/
   - node_modules/

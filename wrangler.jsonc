@@ -1,0 +1,10 @@
+{
+  "name": "rottensweetpotato",
+  "compatibility_date": "2026-10-01",
+  // Jekyll 빌드 결과를 정적 자산으로만 서빙한다 (Worker 스크립트 없음)
+  "assets": {
+    "directory": "./_site",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [{ "pattern": "rottensweetpotato.com", "custom_domain": true }]
+}
