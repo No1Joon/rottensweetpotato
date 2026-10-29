@@ -22,4 +22,4 @@ Jekyll 블로그. 내 프로젝트의 개발 일지(무엇을 했고 왜 그렇�
 
 ## Environment
 
-- CI 는 Ruby 3.3 / Node 20. `main` 푸시 시 `.github/workflows/deploy.yml` 가 rottensweetpotato.com 에 배포한다.
+- CI 는 Ruby 3.3 / Node 22. `main` 푸시 시 `.github/workflows/deploy.yml` 가 rottensweetpotato.com 에 배포한다.
