@@ -2,6 +2,8 @@
 
 Jekyll 블로그. 내 프로젝트의 개발 일지(무엇을 했고 왜 그렇게 결정했는지)와 공부 기록(알고리즘 설명 등)을 쓴다.
 
+> 재개 노트: `temp-memory.md`(gitignore) — 있으면 세션 시작 때 읽고, 수행한 뒤 지운다.
+
 ## Commands
 
 - `bundle install` — 의존성 설치
