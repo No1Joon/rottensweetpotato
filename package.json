@@ -1,5 +1,5 @@
 {
-  "name": "no1joon.github.io",
+  "name": "rottensweetpotato",
   "version": "1.0.0",
   "description": "init",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/No1Joon/No1Joon.github.io.git"
+    "url": "git+https://github.com/No1Joon/rottensweetpotato.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/No1Joon/No1Joon.github.io/issues"
+    "url": "https://github.com/No1Joon/rottensweetpotato/issues"
   },
-  "homepage": "https://github.com/No1Joon/No1Joon.github.io#readme",
+  "homepage": "https://github.com/No1Joon/rottensweetpotato#readme",
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
     "fs-extra": "^11.3.4",

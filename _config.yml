@@ -1,5 +1,5 @@
-title: No1Joon's Tech Blog
-description: 기술 스택, 아키텍처, 개발 경험을 기록하는 블로그
+title: rottensweetpotato
+description: 내 프로젝트 개발 일지와 공부 기록
 baseurl: ""
 url: "https://rottensweetpotato.com"
 lang: ko
@@ -15,7 +15,7 @@ author:
 # social.name 이 jekyll-seo-tag 의 WebSite JSON-LD `name` 이 된다 — 구글이 이 값으로
 # 검색결과 사이트 이름을 정하므로 사람 이름이 아니라 사이트 이름을 넣는다
 social:
-  name: No1Joon's Tech Blog
+  name: rottensweetpotato
   links:
     - https://github.com/No1Joon
 

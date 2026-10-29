@@ -1,8 +1,8 @@
 # 화면 문구 — 레이아웃이 page.lang(기본 site.lang)으로 고른다
 ko:
   home: /
-  hero_title: Tech Stack Blog
-  hero_desc: 기술 스택과 아키텍처 선택에 대한 기록
+  hero_title: rottensweetpotato
+  hero_desc: 내 프로젝트 개발 일지와 공부 기록
   all: 전체
   browse: 글 목록
   prev: ← 이전
@@ -20,8 +20,8 @@ ko:
   privacy_label: 개인정보처리방침
 en:
   home: /en/
-  hero_title: Tech Stack Blog
-  hero_desc: Notes on tech stacks and architecture decisions
+  hero_title: rottensweetpotato
+  hero_desc: Dev logs from my projects and study notes
   all: All
   browse: All posts
   prev: ← Prev

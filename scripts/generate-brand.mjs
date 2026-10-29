@@ -18,7 +18,7 @@ const PRIMARY = '#f5b78f';
 
 const SITE_NAME = 'rottensweetpotato';
 const SITE_SUFFIX = '.com';
-const SITE_DESC = '기술 스택, 아키텍처, 개발 경험을 기록하는 블로그';
+const SITE_DESC = '내 프로젝트 개발 일지와 공부 기록';
 
 async function loadFont() {
   if (!fs.existsSync(FONT_PATH)) {
