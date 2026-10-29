@@ -1,6 +1,6 @@
 # No1Joon's Tech Blog
 
-Jekyll 기반 블로그, cailmeal.com 서빙 (Claude·Gemini 공통 컨텍스트). 기술 스택·아키텍처·개발 경험 기록용.
+Jekyll 기반 블로그, rottensweetpotato.com 서빙 (Claude·Gemini 공통 컨텍스트). 기술 스택·아키텍처·개발 경험 기록용.
 
 > 재개 노트: `temp-memory.md`(gitignore) — 있으면 **세션 시작 때 읽고, 수행한 뒤 지운다.**
 
@@ -42,5 +42,5 @@ Jekyll 기반 블로그, cailmeal.com 서빙 (Claude·Gemini 공통 컨텍스트
 ## Environment
 
 - Ruby + Bundler (Jekyll). Node (OG 이미지 생성). CI 는 Ruby 3.3 / Node 20.
-- `main` 브랜치 푸시 시 `.github/workflows/deploy.yml` 가 cailmeal.com 에 배포하고, GitHub Pages(no1joon.github.io)에는 `scripts/make-redirect-site.py` 가 만든 같은 경로 리다이렉트만 올린다.
+- `main` 브랜치 푸시 시 `.github/workflows/deploy.yml` 가 rottensweetpotato.com 에 배포한다. GitHub Pages(no1joon.github.io)에는 배포하지 않는다.
 - `assets/raw-images/` 는 `.gitignore` 로 제외 (원본 보존용, 사이트 산출물에 포함되지 않음).

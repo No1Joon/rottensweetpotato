@@ -32,4 +32,4 @@ Allow: /
 User-agent: Yeti
 Allow: /
 
-Sitemap: https://cailmeal.com/sitemap.xml
+Sitemap: https://rottensweetpotato.com/sitemap.xml

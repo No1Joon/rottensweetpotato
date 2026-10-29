@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 개인정보처리방침
-description: cailmeal.com 이 수집하는 정보와 쿠키 사용에 대한 안내
+description: rottensweetpotato.com 이 수집하는 정보와 쿠키 사용에 대한 안내
 permalink: /privacy/
 alt_url: /en/privacy/
 ---
@@ -12,7 +12,7 @@ alt_url: /en/privacy/
 
 시행일: 2026년 10월 21일
 
-이 사이트(cailmeal.com)는 회원 가입·댓글·문의 양식이 없으며, 이름·이메일 같은 개인정보를 직접 받지 않습니다.
+이 사이트(rottensweetpotato.com)는 회원 가입·댓글·문의 양식이 없으며, 이름·이메일 같은 개인정보를 직접 받지 않습니다.
 
 ## 방문 통계
 

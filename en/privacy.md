@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
-description: What information cailmeal.com collects and how it uses cookies
+description: What information rottensweetpotato.com collects and how it uses cookies
 permalink: /en/privacy/
 lang: en
 alt_url: /privacy/
@@ -13,7 +13,7 @@ alt_url: /privacy/
 
 Effective date: October 21, 2026
 
-This site (cailmeal.com) has no sign-up, comments, or contact forms, and does not directly collect personal information such as names or email addresses.
+This site (rottensweetpotato.com) has no sign-up, comments, or contact forms, and does not directly collect personal information such as names or email addresses.
 
 ## Visitor statistics
 

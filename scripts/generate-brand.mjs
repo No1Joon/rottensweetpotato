@@ -16,7 +16,7 @@ const TEXT = '#fafafa';
 const MUTED = '#a1a1aa';
 const PRIMARY = '#f5b78f';
 
-const SITE_NAME = 'cailmeal';
+const SITE_NAME = 'rottensweetpotato';
 const SITE_SUFFIX = '.com';
 const SITE_DESC = '기술 스택, 아키텍처, 개발 경험을 기록하는 블로그';
 
@@ -85,7 +85,7 @@ function ogSvg(fontData) {
               { type: 'div', props: { style: { color: TEXT }, children: SITE_NAME } },
               { type: 'div', props: { style: { color: PRIMARY }, children: SITE_SUFFIX } },
             ],
-            { fontSize: 104, letterSpacing: '-0.03em' }
+            { fontSize: 88, letterSpacing: '-0.03em' }
           ),
           row([{ type: 'div', props: { children: SITE_DESC } }], {
             marginTop: 28,
